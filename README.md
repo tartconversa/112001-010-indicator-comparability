@@ -1,15 +1,19 @@
-# Green transition indicator workbench
+# 绿色转型指标可比性工作台
 
-Synthetic metric definitions, regional observations, mapping proposals and partner review decisions.
+用于跨地区比较的合成指标定义、区域观测、映射提案与合作方审核记录。
 
-## Requirements
+## 运行环境
 
-Python 3.11 or newer. The starter snapshot uses only the Python standard library.
+需要 Python 3.11 或更新版本。项目仅使用 Python 标准库。
 
-## Local checks
+## 本地验证
 
-Run `python -m unittest discover -s tests -v` from this directory. The baseline check validates the bundled CSV fixture shapes.
+在项目目录运行 `python -m unittest discover -s tests -v`，检查随附 CSV 样例的结构。
 
-## Data
+## 构建检查
 
-The `data/` directory contains small synthetic input records. See its README for their scope.
+运行 `python -m compileall -q tests` 检查测试文件语法。
+
+## 数据说明
+
+`data/` 目录包含少量合成输入记录，字段范围见其中的说明文件。

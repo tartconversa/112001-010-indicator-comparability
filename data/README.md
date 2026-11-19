@@ -1,5 +1,5 @@
-# Synthetic input data
+# 合成输入数据
 
-Synthetic metric definitions, regional observations, mapping proposals and partner review decisions.
+用于跨地区比较的合成指标定义、区域观测、映射提案与合作方审核记录。
 
-All records are fictional and intended only for local development. Dates and measurements are illustrative.
+所有记录均为虚构，仅供本地开发使用。日期与数值均为示例。
