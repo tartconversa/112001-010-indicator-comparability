@@ -1,0 +1,4 @@
+metric_id,region,period,value,coverage_pct,source_version
+M01,Harbor-City,2025,41.2,100,v3
+M01,Hill-Region,2025,48.6,94,v2
+M02,Harbor-City,2026-01,420000,88,v4

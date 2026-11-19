@@ -1,0 +1,4 @@
+metric_id,region,definition,unit,boundary,frequency,valid_from,valid_to
+M01,Harbor-City,renewables_share,percent,electricity_consumed,annual,2024-01-01,
+M01,Hill-Region,renewables_share,percent,electricity_generated,annual,2024-01-01,
+M02,Harbor-City,green_trips,journeys,person_trip,monthly,2025-01-01,

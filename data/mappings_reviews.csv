@@ -1,0 +1,4 @@
+mapping_id,source_metric,target_metric,transform,proposed_by,review_status,reviewed_at,shared_result_id
+X01,M01,clean_energy_share,unit_only,team_a,accepted,2026-06-01,RST-1
+X02,M01,clean_energy_share,scope_adjustment,team_b,rejected,2026-06-05,RST-1
+X03,M02,active_mobility,identity,team_a,pending,,RST-2
