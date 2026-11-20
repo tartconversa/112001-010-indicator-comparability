@@ -1,4 +1,5 @@
-metric_id,region,definition,unit,boundary,frequency,valid_from,valid_to
-M01,Harbor-City,renewables_share,percent,electricity_consumed,annual,2024-01-01,
-M01,Hill-Region,renewables_share,percent,electricity_generated,annual,2024-01-01,
-M02,Harbor-City,green_trips,journeys,person_trip,monthly,2025-01-01,
+metric_id,region,definition,unit,boundary,frequency,valid_from,valid_to,source_institution,definition_version,notes
+M01,Harbor-City,renewables_share,percent,electricity_consumed,annual,2024-01-01,,Harbor Grid Operator,v1,年度电力消费结构
+M01,Hill-Region,renewables_share,percent,electricity_generated,annual,2024-01-01,,Hill Energy Office,v1,年度发电结构
+M02,Harbor-City,green_trips,journeys,person_trip,monthly,2025-01-01,,Harbor Transit Board,v1,刷卡与手机票合计
+M03,Delta-Port,renewables_share,percent,electricity_consumed,annual,2024-01-01,,Delta Port Authority,v1,年度电力消费结构

@@ -1,0 +1,19 @@
+{
+  "project_id": "PRJ-2026-CE-PIN",
+  "title": "2025 年区域清洁能源占比比较（固定映射）",
+  "regions": ["Harbor-City", "Hill-Region", "Delta-Port"],
+  "coverage_threshold": "90",
+  "min_source_coverage": "80",
+  "notes": "分析人员显式固定采用的映射，便于伙伴复核同一口径。",
+  "targets": [
+    {
+      "target_metric": "clean_energy_share",
+      "period": "2025",
+      "mappings": {
+        "Harbor-City": "X01",
+        "Hill-Region": "X05",
+        "Delta-Port": "X04"
+      }
+    }
+  ]
+}

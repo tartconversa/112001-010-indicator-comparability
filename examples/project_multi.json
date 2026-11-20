@@ -1,0 +1,22 @@
+{
+  "project_id": "PRJ-2026-MULTI",
+  "title": "2025–2026 区域绿色转型组合比较",
+  "regions": [
+    "Harbor-City",
+    "Hill-Region",
+    "Delta-Port"
+  ],
+  "coverage_threshold": "90",
+  "min_source_coverage": "80",
+  "notes": "清洁能源占比使用 2025 年度数据；绿色出行仅有 Harbor-City 月度资料。",
+  "targets": [
+    {
+      "target_metric": "clean_energy_share",
+      "period": "2025"
+    },
+    {
+      "target_metric": "active_mobility",
+      "period": "2026-01"
+    }
+  ]
+}

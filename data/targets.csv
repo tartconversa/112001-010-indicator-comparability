@@ -1,0 +1,3 @@
+target_metric,description,canonical_unit,canonical_boundary,direction,goal
+clean_energy_share,清洁能源占电力消费比例,percent,electricity_consumed,higher_is_better,2030 年达到 60%
+active_mobility,绿色出行次数（月度）,journeys,person_trip,higher_is_better,提升绿色出行比例

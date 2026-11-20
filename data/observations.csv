@@ -1,4 +1,5 @@
-metric_id,region,period,value,coverage_pct,source_version
-M01,Harbor-City,2025,41.2,100,v3
-M01,Hill-Region,2025,48.6,94,v2
-M02,Harbor-City,2026-01,420000,88,v4
+metric_id,region,period,value,coverage_pct,source_version,definition_version,source_institution,observed_at
+M01,Harbor-City,2025,41.2,100,v3,v1,Harbor Grid Operator,2026-02-10
+M01,Hill-Region,2025,48.6,94,v2,v1,Hill Energy Office,2026-03-01
+M02,Harbor-City,2026-01,420000,88,v4,v1,Harbor Transit Board,2026-02-15
+M03,Delta-Port,2025,37.5,97,v1,v1,Delta Port Authority,2026-02-20

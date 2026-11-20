@@ -1,0 +1,11 @@
+{
+  "project_id": "PRJ-2026-CE",
+  "title": "2025 年区域清洁能源占比比较",
+  "regions": ["Harbor-City", "Hill-Region", "Delta-Port"],
+  "coverage_threshold": "90",
+  "min_source_coverage": "80",
+  "notes": "目标为 2025 年度电力消费口径；Hill-Region 为发电口径，只并列呈现。",
+  "targets": [
+    {"target_metric": "clean_energy_share", "period": "2025"}
+  ]
+}

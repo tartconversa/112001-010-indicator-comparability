@@ -1,4 +1,6 @@
-mapping_id,source_metric,target_metric,transform,proposed_by,review_status,reviewed_at,shared_result_id
-X01,M01,clean_energy_share,unit_only,team_a,accepted,2026-06-01,RST-1
-X02,M01,clean_energy_share,scope_adjustment,team_b,rejected,2026-06-05,RST-1
-X03,M02,active_mobility,identity,team_a,pending,,RST-2
+mapping_id,region,source_metric,target_metric,transform,proposed_by,review_status,reviewed_at,shared_result_id,target_unit,conversion_factor,rationale,limitations,source_definition_version,reviewer_region,reviewer_note
+X01,Harbor-City,M01,clean_energy_share,unit_only,team_a,accepted,2026-06-01,RST-1,percent,1,单位与统计边界一致；保留 1 的换算系数以便核对,不适用于其他地区口径,v1,Harbor-City,接受，定义与边界一致
+X02,Hill-Region,M01,clean_energy_share,scope_adjustment,team_b,rejected,2026-06-05,RST-1,percent,,拟按发电结构折算,消费口径与发电口径不同，不能换算,v1,Hill-Region,拒绝：口径差异不能通过换算修复
+X03,Harbor-City,M02,active_mobility,identity,team_a,pending,,RST-2,journeys,1,出行次数，单位与边界一致,,v1,,
+X04,Delta-Port,M03,clean_energy_share,identity,team_a,accepted,2026-06-01,RST-1,percent,1,单位与边界一致,,v1,Delta-Port,接受
+X05,Hill-Region,M01,clean_energy_share,unit_only,team_a,accepted,2026-06-02,RST-1,percent,1,单位一致，但统计边界为发电口径,不得与消费口径合并排名,v1,Hill-Region,接受登记但保留口径差异
